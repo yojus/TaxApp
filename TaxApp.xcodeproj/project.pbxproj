@@ -13,6 +13,7 @@
 		8D3E927F290A559400BA0A4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E927D290A559400BA0A4A /* Main.storyboard */; };
 		8D3E9281290A559800BA0A4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E9280290A559800BA0A4A /* Assets.xcassets */; };
 		8D3E9284290A559800BA0A4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D3E9282290A559800BA0A4A /* LaunchScreen.storyboard */; };
+		8DF29CAB290A7895008D58F4 /* NextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DF29CAA290A7895008D58F4 /* NextViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8D3E9280290A559800BA0A4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8D3E9283290A559800BA0A4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8D3E9285290A559800BA0A4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DF29CAA290A7895008D58F4 /* NextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8D3E9279290A559400BA0A4A /* SceneDelegate.swift */,
 				8D3E927B290A559400BA0A4A /* ViewController.swift */,
 				8D3E927D290A559400BA0A4A /* Main.storyboard */,
+				8DF29CAA290A7895008D58F4 /* NextViewController.swift */,
 				8D3E9280290A559800BA0A4A /* Assets.xcassets */,
 				8D3E9282290A559800BA0A4A /* LaunchScreen.storyboard */,
 				8D3E9285290A559800BA0A4A /* Info.plist */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D3E927C290A559400BA0A4A /* ViewController.swift in Sources */,
+				8DF29CAB290A7895008D58F4 /* NextViewController.swift in Sources */,
 				8D3E9278290A559400BA0A4A /* AppDelegate.swift in Sources */,
 				8D3E927A290A559400BA0A4A /* SceneDelegate.swift in Sources */,
 			);
