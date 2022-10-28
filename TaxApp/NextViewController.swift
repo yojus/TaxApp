@@ -13,10 +13,13 @@ class NextViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        let sum = UserDefaults.standard.array(forKey: "num") as! [Float]
-        label.text = "\(sum.reduce(0, +))"
-        print(sum)
+        
+        if UserDefaults.standard.array(forKey: "num") != nil {
+            let sum = UserDefaults.standard.array(forKey: "num") as! [Float]
+            label.text = "\(sum.reduce(0, +))"
+            print(sum)
+        } else {
+            label.text = String(0)
+        }
     }
-
 }
